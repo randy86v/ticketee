@@ -8,8 +8,7 @@ gem 'rails', '3.2.8'
 gem 'sqlite3'
 
 group :test, :development do
-  gem 'rspec-rails'
-  gem 'sqlite3'
+  gem 'rspec-rails'  
 end
 
 group :test do
@@ -30,7 +29,7 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
+  gem 'dynamic_form'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 

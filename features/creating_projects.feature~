@@ -1,4 +1,4 @@
-Feature Creating projects
+Feature: Creating projects
   As a user
   In order to have projects to assign ticket to
   I want to create them easily
@@ -9,3 +9,5 @@ Scenario: Creating a project
   And I fill in "Name" with "TextMate 2"
   And I press "Create Project"
   Then I should see "Project has been created."
+  And I should be on the project page for "TextMate 2"
+  And I should see "TextMate 2 - Project - Ticketee"

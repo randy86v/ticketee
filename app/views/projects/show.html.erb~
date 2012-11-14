@@ -1,0 +1,3 @@
+<% @title = "TextMate 2 - Project - Ticketee"%>
+
+<h2><%= @project.name %> </h2>
