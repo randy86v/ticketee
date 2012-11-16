@@ -1,7 +1,8 @@
 class Project < ActiveRecord::Base
+  has_many :tickets, dependent: :destroy
   attr_accessible :name
   
-  has_many :tickets
+ 
   
   validates :name, presence: true
 end
