@@ -1,5 +1,8 @@
 <h2>Projects</h2>
 
+<nav>
+  <%= link_to "Sign up", new_user_registration_path %>
+</nav>
 <ul>
   <% @projects.each do |project| %>
     <li><%= link_to project.name, project %></li>
